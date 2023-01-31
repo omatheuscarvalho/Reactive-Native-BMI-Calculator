@@ -1,20 +1,17 @@
 import { StyleSheet } from "react-native";
 const styles = StyleSheet.create({
     formContent:{
-        width: "100%",
+        width: "100%", 
         height: "100%",
         backgroundColor: "#ffffff",
         alignItems: "center",
-        marginTop: 30,
         borderTopRightRadius: 30,
         borderTopLeftRadius: 30,
         marginTop: 30,
+        paddingTop: 30,
     },
     form:{
         width: "100%",
-        height: "auto",
-        marginTop: 30,
-        padding: 10,
     },
     formLabel:{
         color: "#000000",
@@ -50,7 +47,26 @@ const styles = StyleSheet.create({
         color: "red",
         fontWeight: "bold",
         paddingLeft: 20,
-
+    },
+    exhibitionBMI:{
+        width: "80%",
+        height: "50%",
+    },
+    listBmi:{
+        marginTop: 20,
+        paddingBottom: 50,
+    },
+    resultImcItem:{
+        fontSize: 18,
+        color: "red",
+        height: 50,
+        width: "1008%",
+        paddingRight: 20,
+        fontWeight: "bold",
+    },
+    textResultItemList:{
+        fontSize: 14,
+        fontWeight: "normal"
     }
 })
 
